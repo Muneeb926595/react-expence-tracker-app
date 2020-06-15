@@ -149,3 +149,11 @@ input[type='number'] {
 .list li:hover .delete-btn {
   opacity: 1;
 }
+
+.myInput{
+transition: all 0.12s;
+}
+.myInput:hover{
+  transform: scale(1.4 );
+  border: none;
+}

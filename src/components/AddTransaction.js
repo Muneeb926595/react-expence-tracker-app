@@ -27,7 +27,7 @@ export const AddTransaction=()=>{
                     <label htmlFor="text">
                         Text
                     </label>
-                    <input value={text} onChange={(e)=> setText(e.target.value)} type="text" id="text" placeholder="Enter text...">
+                    <input value={text} onChange={(e)=> setText(e.target.value)} type="text" id="text" className="myInput" placeholder="Enter text..." required>
                     
                     </input>
                 </div>
@@ -36,7 +36,7 @@ export const AddTransaction=()=>{
                         Amount<br/>
                         (negetive - expense, positive - expense)
                     </label>
-                    <input value={amount} onChange={(e)=> setAmount(e.target.value)} type="number" id="amount" required placeholder="Enter amount...">
+                    <input value={amount} onChange={(e)=> setAmount(e.target.value)} type="number" id="amount" className="myInput" required placeholder="Enter amount...">
                     
                     </input>
                 </div>
